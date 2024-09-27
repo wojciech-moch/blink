@@ -18,7 +18,7 @@ void setup() {
 // procedura loop jesty wykonywana w nieskonczoność:
 void loop() {
   digitalWrite(led, HIGH);   // włączenie diody LED (wysoki poziom napięcia)
-  delay(1000);               // odczekanie sekundy
+  delay(3000);               // odczekanie sekundy
   digitalWrite(led, LOW);    // wyłączenie diody LED (niski poziom napięcia)
-  delay(1000);               // odczekanie sekundy
+  delay(4000);               // odczekanie sekundy
 }
